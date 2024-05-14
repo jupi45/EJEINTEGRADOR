@@ -3,8 +3,8 @@ int y = 0;
 
 void setup() {
   fullScreen();
-  img = loadImage("../assets/1.png"); //cambiar el your_image.jpg por el nombre de la imagen
-  smallImg = loadImage("../assets/gatico.jpg"); // imágen chiquita
+  img = loadImage("sketch_240412a/assets/1.png");
+  smallImg = loadImage("sketch_240412a/assets/gatico.jpg"); // imágen chiquita
   noCursor();
   frameRate(60);
 }
